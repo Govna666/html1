@@ -1,37 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html style="color:red">
+
   <head>
     <title>Привет бро</title>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="Пехоня.jpg">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+
     Я пишу этот текст для окна браузера, например GOOGLE CHROME
-    <h1>Это заголовок H1</h1>
-    <h2>Это заголовок H2</h2>
-    <p id="ideveloper"><b>Текст внутри</b> <br> <em>тега p</em></p>
+    <h1 class="privet">Это заголовок H1</h1>
+    <h2 style="color:black">Это заголовок H2</h2>
+    <p id="ideveloper"><b>Текст внутри</b> <br>тега p</p>
     <p><b>текст жирный</b></p>
     <p><em>текст курсивом</em></p>
     <a href="https://youtu.be/4jYYHaTwWvY" target="_blank">ролик на YouTube </a>
     <br>
     <a href="#ideveloper">якорь на параграф ideveloperx</a>
-    <ul>
-      <li>первый элемент списка</li>
+    <ul class="list">
+      <li width="90">первый элемент списка</li>
       <li>второй элемент списка</li>
       <li><a href="https://yandex.ru/">Яндекс</a> ссылка на главную страницу</li>
+      <ul>
+        <li>второй уровень</li>
+        <li>второй уровень</li>
+      </ul>
     </ul>
-
     <hr>
 
     <table border="1">
       <thead>
         <tr>
-          <th>название фрукта</th>
-          <th>кол-во</th>
+          <th width="90">наиминование фрукта</th>
+            <th>кол-во</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td>Овощь</td>
+          <td>Апельсин</td>
           <td>2 <img src="Пехоня.jpg" width="90" alt=""></td>
         </tr>
         <tr>
@@ -50,6 +57,8 @@
       <input type="month">
       <input type="submit" name="" value="Отправить">
     </form>
-
+    <a class="font-size-md color-red" href="#">первая ссылка</a>
+    <br>
+    <a class="font-size-md color-grey" href="#">вторая ссылка</a>
   </body>
 </html>
